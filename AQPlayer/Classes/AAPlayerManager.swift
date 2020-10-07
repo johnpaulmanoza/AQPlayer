@@ -332,6 +332,10 @@ extension AQPlayerManager {
         })
     }
     
+    public func setVolume(volume: Float) {
+        self.qPlayer?.volume = volume
+    }
+    
     public func next() {
         guard qPlayer != nil, let index = self.qPlayer?.currentIndex, index < self.qPlayerItems.count - 1 else {
             return
