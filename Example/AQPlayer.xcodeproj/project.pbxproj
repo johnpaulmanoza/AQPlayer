@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		08812A08A2282484EA101C7C /* Pods-AQPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AQPlayer_Example.release.xcconfig"; path = "Target Support Files/Pods-AQPlayer_Example/Pods-AQPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0E44483097F4AF056827E680 /* AQPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AQPlayer.podspec; path = ../AQPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0E44483097F4AF056827E680 /* AudioQueuePlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AudioQueuePlayer.podspec; path = ../AudioQueuePlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		47C5737FF747F270118E5A6D /* Pods_AQPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AQPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* AQPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				0E44483097F4AF056827E680 /* AQPlayer.podspec */,
+				0E44483097F4AF056827E680 /* AudioQueuePlayer.podspec */,
 				CF35CF0108C6484AEBD4DD2E /* README.md */,
 				7A79141B2C5A7236E4A98043 /* LICENSE */,
 			);
@@ -200,6 +200,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
