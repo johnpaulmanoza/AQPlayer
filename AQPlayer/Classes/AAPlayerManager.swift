@@ -76,7 +76,7 @@ public final class AQPlayerManager: NSObject {
         qPlayerItems.removeAll()
     }
     
-    public func setup(with items: [AQPlayerItemInfo], startFrom: Int = 0, playAfterSetup: Bool = false) {
+    public func setup(with items: [AQPlayerItemInfo], startFrom: Int = 0, playAfterSetup: Bool = false, volume: Float = 0.5) {
         
         self.clean()
         self.status = .loading
@@ -108,6 +108,7 @@ public final class AQPlayerManager: NSObject {
         
         // init the AQQueuePlayer
         qPlayer = AQQueuePlayer(items: Array(qPlayerItems.dropFirst(toDrop)))
+        qPlayer?.volume = volume
         
         let keysToObserve = ["currentItem","rate"]
         for key in keysToObserve {
